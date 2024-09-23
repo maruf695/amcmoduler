@@ -1,0 +1,19 @@
+{
+    "name": "maruf695/amcmoduler",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maruf695\\AMCmoduler\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maruf695\\AMCmoduler\\Maruf695AMCmodulerServiceProvider"
+            ]
+        }
+    }
+}
